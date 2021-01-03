@@ -100,4 +100,4 @@ coverage/
 reports/
 
 # Deprecated
-ui.apps/src/main/root/jcr_root/apps/aem-spectrum/components/deprecated/
+ui.apps/src/main/content/jcr_root/apps/aem-spectrum/components/deprecated/
