@@ -98,6 +98,3 @@ node/
 # Tests
 coverage/
 reports/
-
-# Deprecated
-ui.apps/src/main/content/jcr_root/apps/aem-spectrum/components/deprecated/
