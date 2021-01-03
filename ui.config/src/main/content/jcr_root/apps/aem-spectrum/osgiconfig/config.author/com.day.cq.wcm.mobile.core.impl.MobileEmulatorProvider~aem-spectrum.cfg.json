@@ -1,0 +1,6 @@
+{
+  "mobile.resourceTypes": [
+    "aem-spectrum/components/page"
+  ],
+  "README": "Indicate which page resource types should display the mobile emulators."
+}
