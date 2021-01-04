@@ -16,7 +16,7 @@ const Heading = ({ text, level }:Props) => {
 
     return text ? <HeadingSpectrum 
             level={level}>
-            { text }
+                { text }
         </HeadingSpectrum>:null
 }
 
