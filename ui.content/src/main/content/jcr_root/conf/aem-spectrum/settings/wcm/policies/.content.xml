@@ -369,7 +369,7 @@
                         jcr:primaryType="nt:unstructured"
                         jcr:title="SPA Content"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/wcm/foundation/components/responsivegrid,group:AEM Spectrum - Components]">
+                        components="[/libs/wcm/foundation/components/responsivegrid,group:AEM Spectrum - Form,group:AEM Spectrum - Content]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                     </spa-default>
                 </responsivegrid>

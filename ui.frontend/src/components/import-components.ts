@@ -17,6 +17,8 @@
 import './Page/Page';
 import './Text/Text';
 import './Button/Button';
-import './Form/Switch/Switch';
+import './Heading/Heading';
+import './Form/Switch';
+import './Form/SearchField';
 import './Container/Container';
 import './ExperienceFragment/ExperienceFragment';

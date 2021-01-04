@@ -2,12 +2,13 @@ package com.adobe.aem.spectrum.core.models.form;
 
 import com.adobe.cq.export.json.ComponentExporter;
 
-public interface Switch extends ComponentExporter {
+public interface SearchField extends ComponentExporter {
 
-    String getText();
+    String getLabel();
 
     String getAccessibilityLabel();
 
-    boolean isSelected();
+    String getPlaceholder();
 
+    boolean isQuiet();
 }

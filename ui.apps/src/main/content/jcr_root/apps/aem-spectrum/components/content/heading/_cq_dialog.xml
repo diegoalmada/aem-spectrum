@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          xmlns:cq="http://www.day.com/jcr/cq/1.0"
+          xmlns:jcr="http://www.jcp.org/jcr/1.0"
+          xmlns:granite="http://www.adobe.com/jcr/granite/1.0"
+          jcr:primaryType="nt:unstructured"
+          jcr:title="Heading"
+          sling:resourceType="cq/gui/components/authoring/dialog"
+          trackingFeature="core-components:title:v2">
+    <content jcr:primaryType="nt:unstructured"
+             granite:class="cmp-button__editor"
+             sling:resourceType="granite/ui/components/coral/foundation/container">
+        <items jcr:primaryType="nt:unstructured">
+            <tabs jcr:primaryType="nt:unstructured"
+                  maximized="{Boolean}true"
+                  sling:resourceType="granite/ui/components/coral/foundation/tabs">
+                <items jcr:primaryType="nt:unstructured">
+                    <properties
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Properties"
+                            margin="{Boolean}true"
+                            sling:resourceType="granite/ui/components/coral/foundation/container">
+                        <items jcr:primaryType="nt:unstructured">
+                            <columns sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns"
+                                     margin="{Boolean}true"
+                                     jcr:primaryType="nt:unstructured">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <column sling:resourceType="granite/ui/components/coral/foundation/container"
+                                            jcr:primaryType="nt:unstructured">
+                                        <items jcr:primaryType="nt:unstructured" sling:hideChildren="[id,linkURL,types,defaulttypes]">
+                                            <level
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                                    fieldLabel="Level"
+                                                    name="./level">
+                                                <items jcr:primaryType="nt:unstructured">
+                                                    <h1
+                                                            jcr:primaryType="nt:unstructured"
+                                                            text="h1"
+                                                            value="1"/>
+                                                    <h2
+                                                            jcr:primaryType="nt:unstructured"
+                                                            text="h2"
+                                                            value="2"/>
+                                                    <h3
+                                                            jcr:primaryType="nt:unstructured"
+                                                            text="h3"
+                                                            value="3"/>
+                                                    <h4
+                                                            jcr:primaryType="nt:unstructured"
+                                                            text="h4"
+                                                            value="4"/>
+                                                    <h5
+                                                            jcr:primaryType="nt:unstructured"
+                                                            text="h5"
+                                                            value="5"/>
+                                                    <h6
+                                                            jcr:primaryType="nt:unstructured"
+                                                            text="h6"
+                                                            value="6"/>
+                                                </items>
+                                            </level>
+                                        </items>
+                                    </column>
+                                </items>
+                            </columns>
+                        </items>
+                    </properties>
+                </items>
+            </tabs>
+        </items>
+    </content>
+</jcr:root>
